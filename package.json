@@ -1,0 +1,25 @@
+{
+  "name": "ai-career-navigator",
+  "version": "1.0.0",
+  "description": "AI-powered career navigation platform with Docker support",
+  "scripts": {
+    "start": "docker-compose up -d",
+    "stop": "docker-compose down",
+    "restart": "docker-compose restart",
+    "logs": "docker-compose logs -f",
+    "build": "docker-compose up -d --build",
+    "clean": "docker-compose down -v"
+  },
+  "keywords": [
+    "ai",
+    "career",
+    "job-search",
+    "docker",
+    "react",
+    "nodejs",
+    "python",
+    "fastapi"
+  ],
+  "author": "Rubyet Hossain",
+  "license": "MIT"
+}
